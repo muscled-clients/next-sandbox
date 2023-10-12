@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville");
+
+:root {
+  --primary-color: aquamarine;
+  --primary-color-alt: #00ffa9;
+  --primary-text: #0e2431;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #0e2431;
+}
+
+.accent-heading {
+  font-family: "Libre Baskerville", sans-serif;
+  @apply font-medium;
+}
+
+.subtext {
+  @apply text-gray-400 text-base uppercase;
+  letter-spacing: 0.2em;
+}
